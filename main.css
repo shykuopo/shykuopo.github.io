@@ -1,0 +1,88 @@
+
+		.title-col{
+			color:#5B5B5B;
+		}
+		.navbar-brand{
+			font-size:1.8em;
+			font-weight:bold;
+		
+		}
+		
+		#topContainer{
+			background-image:url("background.png");
+			height:400px;
+			background-size:cover;
+			width:100%;
+		}
+		
+		#topRow{
+			margin-top:200px;
+			text-align:center;
+		
+		}
+
+		.sizeUp{
+			font-size:6em;
+		}
+		.sizeMid{
+			font-size:2em;
+		}
+		
+		.bold{
+			font-weight:bold;
+		}
+		
+		.marginTop{
+			margin-top:30px;
+		}
+		.marginTop2{
+			margin-top:60px;
+		}
+
+		
+		.center{
+			text-align:center;
+		}
+		
+		.title{
+			margin-top:100px;
+			font-size:3em;
+		}
+		.content{
+			font-size:1.5em;
+		}
+
+		#myworks{
+		background-color:#5990B7;
+		width:100%
+		
+		}
+		
+		#contactme{
+		background-color:#3C3C3C;
+		width:100%
+		
+		}
+		
+		.appstoreImage{
+		width:300px;
+		
+		}
+		.marginBottom{
+			margin-bottom:100px;
+		
+		}
+		.pic{
+			border-radius: 50px
+		}
+		.whiteText{
+			color: white;
+		}
+
+		.worksDes{
+			background-image:url("img/wave.png");
+			background-size:cover;
+			
+		}
+
+	
