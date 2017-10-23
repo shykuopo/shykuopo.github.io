@@ -38,7 +38,15 @@
 		.marginTop2{
 			margin-top:60px;
 		}
-
+		.marginBottom{
+			margin-bottom:100px;
+		}
+		.marginBottom1{
+			margin-bottom:20px;
+		}
+		.marginLeft{
+			margin-left:200px;
+		}
 		
 		.center{
 			text-align:center;
@@ -48,41 +56,98 @@
 			margin-top:100px;
 			font-size:3em;
 		}
+		.title1{
+			font-size:2.5em;
+		}
+
 		.content{
 			font-size:1.5em;
 		}
+		.content1{
+			font-size:3em;
+		}
 
 		#myworks{
-		background-color:#5990B7;
-		width:100%
+			background-color:#5990B7;
+			width:100%
 		
 		}
 		
 		#contactme{
-		background-color:#3C3C3C;
-		width:100%
+			background-color:#3C3C3C;
+			width:100%
 		
 		}
 		
 		.appstoreImage{
-		width:300px;
+			width:300px;
 		
 		}
-		.marginBottom{
-			margin-bottom:100px;
 		
-		}
 		.pic{
-			border-radius: 50px
+			border-radius: 30px
 		}
+		
 		.whiteText{
 			color: white;
 		}
 
-		.worksDes{
-			background-image:url("img/wave.png");
-			background-size:cover;
-			
+		#works_pro{
+				
 		}
+
+		#works_mech{
+			background-color:#5990B7;
+			width:100%
+		}
+
+		#works_others{
+			background-color:#ADADAD;
+		}
+		#a1{
+			background-color:#8EB3CD;
+		}
+
+		#a2{
+			background-color:#8EB3CD;
+		}
+		#a3{
+			background-color:#6798BC;
+		}
+
+
+		.padding{
+			padding-top: 20px;
+		}
+		.padding1{
+			padding-top: 35px;
+		}
+		.paddingButtom{
+			padding-bottom: 20px;
+		}
+		.paddingLeft{
+			padding-left: 20px;
+		}
+		.paddingLeft1{
+			padding-left: 10px;
+		}
+
+
+		#thumbs{
+			position: relative;
+		}
+		div.thumb { 
+			float: left;
+			padding: 1px; 
+			width: 64px; 
+			height: 64px; 
+		}
+		div.thumb img { 
+			border: 2px solid white; 
+		}
+
+
+
+
 
 	

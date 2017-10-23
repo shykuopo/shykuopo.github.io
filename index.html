@@ -84,9 +84,10 @@
 			
 		</div>
 		
-		<div class="row">
-			<div class="col-md-8 marginTop2">
+		<div class="row" id="a2">
+			<div class="col-md-8 marginTop2" >
 				<P class="sizeMid bold"> PO-YANG KUO  <font face="微軟正黑體"> 郭博洋</font></P>
+				
 				<p class="marginTop content">● You can just call me “Sam”</p>
 				<p class="content">● 22-years-old boy comes from Taiwan</p>
 				<p class="content">● Graduated from the Department of Power Mechanical Engineering in NTHU.</p>
@@ -95,7 +96,7 @@
 			</div>
 			
 			<div class="col-md-4">
-				<img class="pic" src="img/selfPic.jpg" height=500 width=400 />
+				<img class="pic" src="img/selfPic.jpg" height=550 width=400 />
 			</div>		
 		</div>
 	</div>
@@ -107,22 +108,22 @@
 			<h1 class="center title whiteText">My Works<h1>
 
 			<div class="col-md-4 ">
-				<a href=MAC/AI.html>
-					<img src="img/AI.png" height="400" width="100%" id="work1" style="border-radius: 10%;">
+				<a href=works.html#program>
+					<img src="img/WebApp.png" height="400" width="100%" id="work1" style="border-radius: 10%;">
 				</a>
 			
            
             </div>
             <div class="col-md-4 ">
-				<a href=MAC/webApp.html>
-					<img src="img/WebApp.png" height="400" width="100%" id="work2" style="border-radius: 10%;">
+				<a href=works.html#mechanics>
+					<img src="img/mechanics.png" height="400" width="100%" id="work2" style="border-radius: 10%;">
 				</a>
 			
            
             </div>
 
            	<div class="col-md-4 ">
-				<a href=MAC/TEAM.html>
+				<a href=works.html#others>
 					<img src="img/Others.png" height="400" width="100%" id="work3" style="border-radius: 10%;">
 				</a>
 			
@@ -176,25 +177,27 @@
 
 
 		$("#work1").hover(function(){
-			$("#worksName").html("AI Design");
+			$("#worksName").html("Programs");
+			$(this).attr("src","img/WebDes.jpg");
 		},function(){
-			$("#worksName").html("Choose and hit!!! ");
-			$(this).attr("src","img/AI.png");
+			$("#worksName").html("");
+			$(this).attr("src","img/WebApp.png");
 		});
 
 		$("#work2").hover(function(){
-			$("#worksName").html("Webs & Apps");
-			$(this).attr("src","img/WebDes.jpg");
+			$("#worksName").html("Mechanics");
+			$(this).attr("src","img/mech.jpg");
 		},function(){
-			$("#worksName").html("Choose and hit!!! ");
-			$(this).attr("src","img/WebApp.png");
+			$("#worksName").html("");
+			$(this).attr("src","img/mechanics.png");
 		});
 
 		$("#work3").hover(function(){
 			$("#worksName").html("Others");
+			$(this).attr("src","img/TEAM.jpg");
 			
 		},function(){
-			$("#worksName").html("Choose and hit!!! ");
+			$("#worksName").html("");
 			$(this).attr("src","img/Others.png");
 		});
 
